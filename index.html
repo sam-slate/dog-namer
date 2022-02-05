@@ -1,6 +1,12 @@
 <head>
     <script>
     function generateName() {
+      document.getElementById("name").innerHTML = "Calculating .";
+      await sleep(1000);
+      document.getElementById("name").innerHTML = "Calculating . .";
+      await sleep(1000);
+      document.getElementById("name").innerHTML = "Calculating . . .";
+      await sleep(1000);
       document.getElementById("name").innerHTML = "Gary";
     }
     </script>
